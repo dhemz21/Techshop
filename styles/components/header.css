@@ -15,52 +15,35 @@
     display: none;
 }
 
-/* Hamburger menu */
-label{
-    display:flex;
-     flex-direction:column;
-     width:35px;
-     cursor:pointer;
-   }
-   
-   label span{
-     background: var(--clr-jet);
-     border-radius:10px;
-     height:3px;
-     margin: 3px 0;
-     transition: .4s  cubic-bezier(0.68, -0.6, 0.32, 1.6); 
-   }
-   span:nth-of-type(1){
-     width:50%;  
-   }
-   span:nth-of-type(2){
-     width:100%;
-   }
-   span:nth-of-type(3){
-     width:75%;
-   }
-   input[type="checkbox"]{
-     display:none;
-   }
+/* Hamburger start */
+.menu-icon {
+    display: inline-block;
+    cursor: pointer;
+    top: 20px; 
+    right: 20px; 
+  }
 
-   input[type="checkbox"]:checked ~ span:nth-of-type(1){
-     transform-origin:bottom;
-     transform:rotatez(45deg) translate(4px,0px)
-   }
-   input[type="checkbox"]:checked ~ span:nth-of-type(2){
-     
-     transform-origin:top;
-     transform:rotatez(-45deg)
-   }
-   
-   input[type="checkbox"]:checked ~ span:nth-of-type(3){
-     
-     transform-origin:bottom;
-     width:50%;
-     transform: translate(15px,-3px) rotate(45deg);
-   }
-   
-/* Hamburger menu end */
+  .bar {
+    display: block;
+    width: 26px;
+    height: 3px;
+    margin: 4px 0;
+    background-color: #333;
+    transition: transform 0.3s, opacity 0.3s;
+  }
+  
+  #menu.open .bar:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+  
+  #menu.open .bar:nth-child(2) {
+    opacity: 0;
+  }
+  
+  #menu.open .bar:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+  
 
 .header__bars{
     color: var(--clr-dark);
@@ -68,7 +51,7 @@ label{
     height: var(--size-3xl);
     display: block;
 }
-
+/* Hamburger end */
 /* md */
 @media(min-width: 768px){
     .header__menu{
@@ -88,7 +71,7 @@ label{
     .header__menu a:hover{
         color: var(--clr-rasberry);
     }
-    label{
+    .menu-icon{
         display: none;
     }
 
