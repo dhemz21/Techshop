@@ -15,10 +15,10 @@
 }
 
 .main__box{
-    text-align: center;
-    background-color: var(--clr-vermillion);
-    color: var(--clr-white);
-    padding: 10px 20px;
+    text-align: start;
+    background-color: var(--clr-ashgray);
+    color: var(--clr-jet);
+    padding: 10px 10px;
     margin: 12px 0;
     border-radius: 6px;
     
@@ -30,14 +30,25 @@
     transform: translateY(-8px);
 }
 
+.main__user, .main__user__name{
+    text-align: center;
+}
+
 .main__user img{
     border-radius: 50px;
     height: 50px;
     width: 50px;
-    border: 1px solid var(--clr-white);
+    border: 1px solid var(--clr-rasberry);
 }
 .main__user__name{
     font-size: var(--size-sm);  
+}
+
+.main__testimony{
+    background-color: var(--clr-white);
+    padding: 10px 5px;
+    margin-top: 1rem;
+    border-radius: 15px;
 }
 
 /* sm */
