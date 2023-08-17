@@ -59,10 +59,6 @@
     .section__1, .section__2{
         margin-top: 1rem;
     }
-    .section__discover{
-        font-size: var(--size-4xl);
-        text-transform: capitalize;
-    }
 /* sm */
 @media(min-width: 640px){
     .main__section{
@@ -120,6 +116,7 @@
 @media(min-width: 1024px){
     .section__discover{
         margin-top: var(--size-lg);
+        font-size: var(--size-5xl);
     }
     .section__image2{
         width: 50%;

@@ -1,0 +1,43 @@
+.main__partners{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--clr-whip);
+    padding: 1rem 0;
+    border-radius: 6px;
+    box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+.fa-brands{
+    background-color: var(--clr-jet);
+    padding: 8px;
+    color: var(--clr-white);
+    font-size: var(--size-xl);
+    border-radius: 50px;
+    transition: 0.3s;
+}
+.fa-brands:hover{
+    color: var(--clr-rasberry);
+}
+
+.main__brand{
+    display: none;
+}
+
+/* md */
+@media(min-width: 768px){
+    .main__brand{
+        display: inline-block;
+        font-weight: bold;
+    }
+}
+/* lg */
+@media(min-width: 1024px){
+    .fa-brands{
+        padding: 12px;
+    }
+    .main__brand{
+        font-size: var(--size-xl);
+    }
+}
