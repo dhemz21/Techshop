@@ -5,6 +5,10 @@
     border-radius: 6px;
 }
 
+.section__span{
+    color: var(--clr-rasberry);
+}
+
 .section__1, .section__2{
     margin: 1rem 0;
 }
