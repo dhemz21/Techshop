@@ -30,22 +30,22 @@
 }
 
 .box1{
-    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(public/img/business-2846221.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../../public/img/business-2846221.jpg);
     background-position: center;
     background-size: cover;
 }
 .box2{
-    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(public/img/hands-820272.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../../public/img/hands-820272.jpg);
     background-position: center;
     background-size: cover;
 }
 .box3{
-    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(public/img/technology-785742.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../../public/img/technology-785742.jpg);
     background-position: center;
     background-size: cover;
 }
 .box4{
-    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(public/img/business-2846221.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../../public/img/business-2846221.jpg);
     background-position: center;
     background-size: cover;
 }
